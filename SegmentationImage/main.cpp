@@ -8,10 +8,6 @@ using namespace std;
 using namespace cv;
 
 
-// %THIRDPARTY%\opencv\build\include
-// %THIRDPARTY%\opencv\build\x64\vc15\lib
-// opencv_world344d.lib
-
 //----------------大津算法-------------------
 void showThreshold(Mat srcImg)
 {
@@ -69,10 +65,10 @@ void showImage(const String& filename)
 
 int main()
 {
-	//showImage("./Pic2.png");
+	//showImage("../Pics/Pic2.png");
 
 	//读取本地的一张图片便显示出来
-	//Mat img = imread("./Pic2.png");
+	//Mat img = imread("./Pics/Pic2.png");
 	//imshow("Source Image", img);
 
 	//Mat gray;
@@ -84,7 +80,7 @@ int main()
 	//waitKey(0);
 
 	//showImage("./Pic6.png");
-	Mat img = imread("./Pic6.png");
+	Mat img = imread("../Pics/Pic6.png");
 	imshow("Source Image", img);
 
 	Mat gray;
