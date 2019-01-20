@@ -79,9 +79,9 @@ void testCanny(Mat img, int type = 0)
 
 int main()
 {
-	Mat img = imread("../Pics/Lena.png");
+	Mat img = imread("../Pics/test.png");
 
-	testSobel(img, 1);
+	//testSobel(img, 1);
 	testCanny(img, 1);
 
 	return 0;
