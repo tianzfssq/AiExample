@@ -1,0 +1,1 @@
+1. openCV中加载一副图形是使用的BGR，所以使用cvtColor转换时一般使用CV_BGR2GRAY而不是CV_RGB2GRAY
