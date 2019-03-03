@@ -25,7 +25,7 @@ int main()
 
 	// [1] 自适应阈值二值化
 	Mat bw;
-	adaptiveThreshold(destImage, bw, 255, ADAPTIVE_THRESH_MEAN_C, THRESH_OTSU, 7, 2);
+	adaptiveThreshold(destImage, bw, 255, ADAPTIVE_THRESH_MEAN_C, THRESH_BINARY, 7, 2);
 
 	imshow("adaptiveThreshold", bw);
 	//等待用户按键

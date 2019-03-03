@@ -7,11 +7,11 @@
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>%QTDIR%\include\QtGui;%QTDIR%\include\QtANGLE;%QTDIR%\include\QtCore;%QTDIR%\include\QtWidgets;%QTDIR%\include;%THIRDPARTY%\opencv\build\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%THIRDPARTY%\opencv\build\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>%QTDIR%/lib;%THIRDPARTY%\opencv\build\x64\vc15\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_world344d.lib;D:\Qt\Qt5.5.1\5.5\msvc2010_opengl64\lib\qtmaind.lib;shell32.lib;D:/Qt/Qt5.5.1/5.5/msvc2010_opengl64/lib\Qt5Cored.lib;D:\Qt\Qt5.5.1\5.5\msvc2010_opengl64\lib\Qt5Widgetsd.lib;D:\Qt\Qt5.5.1\5.5\msvc2010_opengl64\lib\Qt5Guid.lib;D:\Qt\Qt5.5.1\5.5\msvc2010_opengl64\lib\Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%THIRDPARTY%\opencv\build\x64\vc15\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world344d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup />
